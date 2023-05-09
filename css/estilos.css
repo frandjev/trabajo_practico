@@ -1,6 +1,9 @@
-.opciones{
-   margin-left: auto;
+.d-item{
+    height: 500px;
 }
-.probando{
-    justify-content: center;
+.d-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
 }
+
