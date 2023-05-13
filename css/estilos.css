@@ -68,3 +68,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.section-padding {
+	padding: 100px 0;
+}
