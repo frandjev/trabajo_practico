@@ -31,13 +31,14 @@
                 <a class="nav-link fs-4" href="#">Nosotros</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link fs-4" href="#">Contacto</a>
+                <a class="nav-link fs-4" href="#contacto">Contacto</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
  </header>
+  <!--Carousel-->
   <section class="container">
     <div class="row">
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -78,14 +79,15 @@
       </div>
     </div>
   </section>
+  <!--Filtros-->
   <section>
-    <div class="container section-padding">
-      <div class="row mb-1">
+    <div class="container section-padding" id="filtros">
+      <div class="row mb-1" >
           <div class="col-md-12 text-center mb-3 mt-3">
             <h1 >Blanco Hogar</h1>
           </div>
       </div>
-      <div class="row catalogo-inicio fs-5" id="filtros">
+      <div class="row catalogo-inicio fs-5" >
           <div class="col-md-3 col-sm-6 col-6 Sabanas ">
             <a href="" class="">Sabanas y Ajustables</a>
           </div>
@@ -113,9 +115,30 @@
       </div>
     </div>
   </section>
-  <section class="contact section-padding">
+  <!--Nosotros-->
+  <section>
+    <div class="container ">
+      <div class="container mt-5 mb-2">
+        <div class="row" >
+            <div class="col-md-12">
+              <h2 class="text-center ">Nosotros</h2>
+            </div>
+        </div>
+        <div class="row bg-light rounded shadow-sm">
+            <div class="col-md-12">
+               <h4>Blanco Hogar Blanqueria</h4>
+               <p>Somos una tienda en línea que se dedica a ofrecer una amplia variedad de productos de alta calidad para el hogar. Desde sábanas suaves y cómodas hasta acolchados acogedores y alfombras elegantes, tenemos todo lo que necesitas para transformar cualquier habitación de tu hogar.</p>
+            </div>
+            <div>
+                <h4>Nuestros Productos</h4>
+                <p>Sabemos que la decoración y el confort de tu hogar son muy importantes. Por eso nos esforzamos por proporcionarte los mejores artículos para que puedas disfrutar de tu espacio al máximo.</p>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section class="contact section-padding" id="contacto">
     <div class="container mt-5 mb-2">
-      <div class="row">
+      <div class="row" >
           <div class="col-md-12">
             <h2 class="text-center ">Contactanos</h2>
           </div>
@@ -134,10 +157,15 @@
                               <input class="form-control" placeholder="Mail" type="email">
                           </div>
                       </div>
-                      <div class="col-md-7 bg-light rounded-bottom ">
+                      <div class="col-md-7 bg-light">
                           <div class="mb-3">
-                            <textarea class="form-control" name=""  rows="3"></textarea>
+                            <textarea class="form-control" placeholder="Consulta" name=""  rows="3"></textarea>
                           </div>
+                      </div>
+                      <div class="col-md-7 bg-light rounded-bottom ">
+                        <div class="mb-3 ">
+                            <input class="form-control " type="submit">
+                        </div>
                       </div>
                   </div>
               </form>
