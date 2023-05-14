@@ -1,0 +1,74 @@
+*{
+     font-family: 'Roboto', sans-serif;
+}
+.d-item{
+    height: 500px;
+}
+.d-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.catalogo-inicio a{
+    display: block;
+    text-align: center;
+    width: 100%;
+    min-height: 260px;
+    padding-top: 39%;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
+    margin-bottom: 20px;
+    
+}
+.Sabanas a{
+    background-image: url("../img/filtros/sabanas2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+
+.covers a{
+    background-image: url(../img/filtros/covers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.cortinas a{
+    background-image: url(../img/filtros/cortina2.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.frazada a{
+    background-image: url(../img/filtros/mantas.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.toalla a{
+    background-image: url(../img/filtros/toallas1.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cortinasBaño a{
+    background-image: url(../img/filtros/Cortinasbaño.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.repasadores a{
+    background-image: url(../img/filtros/repasador.jpeg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.alfombra a{
+    background-image: url(../img/filtros/alfombra1.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-padding {
+	padding: 100px 0;
+}
